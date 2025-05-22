@@ -104,6 +104,6 @@ let finnsP = names.some(namn => namn.includes("p"))
 let femForsta = str.slice(0, 5);
     console.log(femForsta);
 
-//skriv ut de 7 första bokstäverna i strängen ovan.
-let sjuForsta = str.slice(0, 7);
+//skriv ut de 7 sista bokstäverna i strängen ovan.
+let sjuForsta = str.slice(-7);
     console.log(sjuForsta);
